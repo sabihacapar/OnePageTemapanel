@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^index$ index.php [L]
+RewriteRule ^hakkimizda$ index.php?sayfa=1 [L,QSA]
+RewriteRule ^hizmetlerimiz$ index.php?sayfa=2 [L,QSA]
+RewriteRule ^aracfilomuz$ index.php?sayfa=3 [L,QSA]
+RewriteRule ^iletisim$ index.php?sayfa=4 [L,QSA]
+RewriteRule ^videolar$ index.php?sayfa=5 [L,QSA]
